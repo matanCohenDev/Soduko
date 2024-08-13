@@ -363,7 +363,6 @@ document.addEventListener('DOMContentLoaded', function() {
         const seconds = timeLeft % 60;
         time.textContent = `${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
            if (timeLeft > 0) {
-                console.log(timeLeft);
                 timeLeft--;
            } 
             else {
