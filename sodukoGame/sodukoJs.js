@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     selectedOption.addEventListener('click', () => {
         optionsContainer.classList.toggle('show');
+        console,log(":");
     });
 
     optionsList.forEach(option => {
