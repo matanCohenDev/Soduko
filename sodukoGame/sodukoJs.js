@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const startButton = document.querySelector('.btn');
     const sodukoGrid = document.querySelector('.sudokuGrid');
     const checkButton = document.querySelector('#checkBtn');
-    const resetButton = document.querySelector('#resetBtn')
+    const resetButton = document.querySelector('#resetBtn');
     const time = document.querySelector('#time');
     const titleAndTime = document.querySelector('.timeAndTitle');
     const score = document.querySelector('#score');
